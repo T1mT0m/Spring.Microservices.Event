@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ProductServiceApplicationTests" project="demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.github.bwar.sb.ms.productservice.ProductServiceApplicationTests" time="1.41" displayname="ProductServiceApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.github.bwar.sb.ms.productservice.ProductServiceApplicationTests]">
+    <testcase name="shouldCreateProduct" classname="com.github.bwar.sb.ms.productservice.ProductServiceApplicationTests" time="1.41" displayname="shouldCreateProduct()" uniqueid="[engine:junit-jupiter]/[class:com.github.bwar.sb.ms.productservice.ProductServiceApplicationTests]/[method:shouldCreateProduct()]"/>
+  </testsuite>
+</testrun>

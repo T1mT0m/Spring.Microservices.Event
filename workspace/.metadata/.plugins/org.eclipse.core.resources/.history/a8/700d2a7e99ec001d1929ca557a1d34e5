@@ -1,0 +1,5 @@
+package com.github.bwar.sb.ms.inventoryservice.repository;
+
+public final class InventoryRepository {
+
+}

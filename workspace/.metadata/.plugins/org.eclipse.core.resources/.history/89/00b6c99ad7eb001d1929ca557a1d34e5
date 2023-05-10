@@ -1,0 +1,26 @@
+package com.github.bwar.sb.ms.productservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.github.bwar.sb.ms.productservice.dto.ProductRequest;
+import com.github.bwar.sb.ms.productservice.model.Product;
+import com.github.bwar.sb.ms.productservice.repository.ProductRepository;
+
+@Service
+public class ProductService {
+	
+	private final ProductRepository productRepository;
+	public ProductService(ProductRepository productRepository) {
+		this.productRepository = productRepository;
+	}
+	
+	public void createProduct(ProductRequest productRequest) {
+		Product product = Product.builder()
+				.name(productRequest.getName())
+				.description(productRequest.getDescription())
+				.price(productRequest.getPrice())
+				.build();
+		
+	}
+
+}

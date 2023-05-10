@@ -1,0 +1,10 @@
+package com.github.bwar.sb.ms.orderservice.config;
+
+import org.springframework.beans.factory.annotation.Configurable;
+
+@Configurable
+public class WebClientConfig {
+	
+	
+
+}

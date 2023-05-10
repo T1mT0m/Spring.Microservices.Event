@@ -1,0 +1,13 @@
+package com.github.bwar.sb.ms.productservice.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Document(value="product")
+@Data
+public class Product {
+
+}
